@@ -6,6 +6,7 @@
   --cloud: #f4f4fd;
   --hover-blu: #404bbf;
 }
+
 .body {
   font-family: Roboto, sans-serif;
   color: var(--slate);
@@ -23,6 +24,9 @@ ul {
   margin: 0;
   padding-left: 0;
 }
+img {
+  display: block;
+}
 .visually-hidden {
   position: absolute;
   overflow: hidden;
@@ -34,6 +38,11 @@ ul {
   border: 0;
   white-space: nowrap;
   clip-path: inset(100%);
+}
+.container {
+  max-width: 1440px;
+  margin: 0, auto;
+  padding: 0, 32px;
 }
 /* Header */
 .logo {
@@ -93,14 +102,17 @@ ul {
 /* Hero */
 .hero-section {
   background-color: var(--navyblue, #2e2f42);
+  padding: 190px 472px 0 472px;
 }
 .hero-title {
+  max-width: 496px;
   color: var(--white);
   text-align: center;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07em;
   letter-spacing: 0.02em;
+  margin-bottom: 48px;
 }
 .hero-button {
   color: var(--white);
@@ -132,12 +144,14 @@ ul {
   font-weight: 500;
   line-height: 1.2em;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .advantage-text {
   color: var(--slate);
   font-weight: 400;
   line-height: 1.5em;
   letter-spacing: 0.02em;
+  margin-bottom: 120px;
 }
 
 /* Team  */
@@ -207,4 +221,7 @@ ul {
   font-weight: 400;
   line-height: 1.5em;
   letter-spacing: 0.02em;
+}
+.section {
+  padding: 120px;
 }
