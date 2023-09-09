@@ -73,6 +73,9 @@ button {
   justify-content: space-between;
   align-items: center;
   gap: 40px;
+  max-width: 1158px;
+  margin: 0, auto;
+  padding: 0, 15px;
 }
 .header-address {
   display: flex;
