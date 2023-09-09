@@ -192,12 +192,15 @@ button {
 }
 
 /* Advantage  */
-.advantage-inner {
+.advantage-section {
   background: var(--cloud);
 }
 .advantage-list {
   display: flex;
   gap: 24px;
+}
+.advantage-link {
+  width: calc((100% - 72px) / 4);
 }
 .advantage-title {
   color: var(--navyblue);
