@@ -63,12 +63,14 @@ button {
 }
 
 /* Header */
+.header {
+  border-bottom: 1px solid var(--CORNFLOWER);
+}
 .header-inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 40px;
-  border-bottom: 1px solid var(--CORNFLOWER);
 }
 .header-address {
   display: flex;
